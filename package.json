@@ -1,0 +1,29 @@
+{
+    "name": "watchface",
+    "author": "MakeAwesomeHappen",
+    "companyName": "theothertwin",
+    "version": "1.0.0",
+    "keywords": ["pebble-app"],
+    "private": true,
+    "dependencies": {},
+    "pebble": {
+        "displayName": "watchface",
+        "uuid": "e741b851-6cbf-45f8-888b-814edd89c751",
+        "sdkVersion": "3",
+        "enableMultiJS": true,
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "watchapp": {
+            "watchface": true
+        },
+        "messageKeys": [
+            "dummy"
+        ],
+        "resources": {
+            "media": []
+        }
+    }
+}
