@@ -23,7 +23,14 @@
             "dummy"
         ],
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "type": "font",
+                    "name" : "FONT_BUNGEE_48",
+                    "file": "fonts/Bungee-Regular.ttf",
+                    "compatibility": "2.7"
+                }
+            ]
         }
     }
 }
